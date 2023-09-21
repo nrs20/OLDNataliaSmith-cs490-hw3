@@ -6,11 +6,11 @@ export const QUERY = gql`
       id
       name
       body
+      postId
       createdAt
     }
   }
 `
-
 export const Loading = () => <div>Loading...</div>
 
 export const Empty = () => {
